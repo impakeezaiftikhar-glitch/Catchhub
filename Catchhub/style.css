@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#fff;
+    color:#333;
+}
+
+/*================ HEADER ================*/
+
+.container{
+    width:1200px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+header{
+    padding:60px 0 80px;
+}
+
+.left-content{
+    width:520px;
+    text-align:center;
+    margin-right:-50px;
+}
+
+.logo{
+    width:290px;
+    display:block;
+    margin:0 auto 25px;
+}
+
+.left-content h1{
+    font-size:24px;
+    font-weight:600;
+    letter-spacing:4px;
+    line-height:1.4;
+    text-align:center;
+    margin-bottom:8px;
+    white-space:nowrap;
+}
+
+.left-content p{
+    font-size:23px;
+    color:#777;
+    margin-bottom:60px;
+}
+
+.store-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.store-buttons img{
+    width:155px;
+}
+
+.right-content{
+    width:500px;
+    text-align:center;
+}
+
+.right-content img{
+    width:100%;
+     transform: translateX(80px);
+}
+/*================ SECTIONS ================*/
+
+section{
+    width:1200px;
+    margin:10px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     gap:40px;
+}
+
+section .image{
+    width:52%;
+}
+
+section .image img{
+    width:430px;
+    display:block;
+    margin-left:160px;
+}
+
+section .text{
+    width:45%;
+    text-align:center;
+    transform: translateX(-30px);
+}
+section .text h2{
+    font-size:22px;
+    font-weight:600;
+    letter-spacing:4px;
+    color:#222;
+    margin-bottom:18px;
+}
+
+section .text p{
+    font-size:25px;
+    color:#777;
+    line-height:1.4;
+    width:100%;
+    margin:0 auto;
+}
+
+.future-icons{
+    width:280px;
+    display:block;
+    margin:0 auto 20px;
+}
+
+/*================ FOOTER ================*/
+
+footer{
+    text-align:center;
+    padding:70px 20px;
+}
+
+footer h3{
+    font-size:25px;
+    font-weight:normal;
+    margin-bottom:30px;
+}
+
+footer .store-buttons{
+    margin-bottom:30px;
+}
+
+footer p{
+    margin-bottom:25px;
+    color:#666;
+}
+
+footer a{
+    color:#2b8cff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer img{
+    width:100px;
+}
+/* ===== MESSAGES SECTION ONLY ===== */
+
+.messages .image img{
+    margin-left:80px;      /* Mobile image left */
+}
+
+.messages .text{
+    transform:translateX(90px);   /* Text right */
+}
